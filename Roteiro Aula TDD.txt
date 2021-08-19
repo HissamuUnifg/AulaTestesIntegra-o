@@ -1,0 +1,28 @@
+Roteiro de Aula TDD
+ - Fazer o clone do repositório;
+
+ - Se necessário adicionar o arquivo .jar do JUnit 4 ao class_path da aplicação;
+
+ - Após isso, a aplicação deve estar pronta para rodar. 
+
+ - Para o início da aula, apagar os métodos:
+   - ReajusteService.concederReajuste(Funcionario funcionario)
+   - ReajusteServiceTst.testes de período de tempo (linhas 42 em diante);
+
+ - Após isso apresentar o cenário aos alunos que novos requisitos foram adicionados ao projeto, fazendo com que novas implementações fossem necessárias;
+
+ - Revisar o padrão de codificação IMPLEMENTAÇÃO -> TESTE e o padrão proposto pelo TDD;
+
+ - iniciar a implementaçao do teste de reajuste para funcionários com mais de 5 anos e menos de 5 anos;
+
+ - Frisar que o código não vai funcionar, pq várias coisas foram colocadas no teste mas que AINDA não existem;
+
+ - Após o teste pronto, fazer as implementações para que o teste passe. NÃO é importante se preocupar demais com outros cenários agora, eles serão cobertos nos outros testes;
+
+ - Repita o processo até alcançar os reajustes acima de 20 anos;
+
+ - Discussão: 
+   - O código está bom? Funciona, mas está legível? É fácil de mudar? 
+   - Refatoração -> atividade para os alunos: Buscar formas de melhorar o código;
+   - Como se sentem em relação a alterar o código, tendo testes automatizados em background?
+   - Exercitar o TDD com outra feature de promoção;
