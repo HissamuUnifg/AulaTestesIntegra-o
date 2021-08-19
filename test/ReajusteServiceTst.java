@@ -45,4 +45,52 @@ public class ReajusteServiceTst {
         service.concederReajuste(fulano);
         assertEquals(2100.00, fulano.getSalario(), 0.001);
     }
+    
+    @Test
+    public void reajustePorTempoDeServiçoAcimaDe5Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2015, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2100.00, fulano.getSalario(), 0.001);
+    }
+    
+    @Test
+    public void reajustePorTempoDeServiçoAbaixoDe5Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2017, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2000.00, fulano.getSalario(), 0.001);
+    }
+    
+    @Test
+    public void reajustePorTempoDeServiçoEntre5E10Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2011, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2200.00, fulano.getSalario(), 0.001);
+    }
+    
+    @Test
+    public void reajustePorTempoDeServiçoEntre10E15Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2011, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2200.00, fulano.getSalario(), 0.001);
+    }
+    
+    @Test
+    public void reajustePorTempoDeServiçoEntre15E20Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2006, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2300.00, fulano.getSalario(), 0.001);
+    }
+    
+    @Test
+    public void reajustePorTempoDeServiçoEntreAcima20Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2000, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2400.00, fulano.getSalario(), 0.001);
+    }
 }
