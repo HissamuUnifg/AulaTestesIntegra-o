@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="AllTests" skipped="0" tests="6" time="0.042" timestamp="2021-08-19T20:23:13">
+<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="AllTests" skipped="0" tests="6" time="0.041" timestamp="2021-08-19T20:26:28">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="javac.test.classpath" value=":build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
@@ -40,7 +40,7 @@
     <property name="libs.eclipselink.src" value="" />
     <property name="user.name" value="hissa" />
     <property name="copylibs.rebase" value="true" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/test/results/TEST-AllTests.xml crashfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junitvmwatcher2797836118143825695.properties propsfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junit213340271955382978.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/test/results/TEST-AllTests.xml crashfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junitvmwatcher9567927701879230083.properties propsfile=/home/hissa/NetBeansProjects/AulaTestesUnitarios/build/junit7515037769181976789.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="build.sysclasspath" value="ignore" />
     <property name="manifest.encoding" value="UTF-8" />
@@ -76,7 +76,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios/null1395931097" />
+    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTestesUnitarios/null356266141" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value=":build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
@@ -313,7 +313,7 @@
   <testcase classname="BonusServiceTest" name="bonusDeveriaSer10PorCentoDoSalario" time="0.009" />
   <testcase classname="BonusServiceTest" name="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" time="0.001" />
   <testcase classname="BonusServiceTest" name="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000" time="0.0" />
-  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeQuinzePorcentoQuandoDesempenhoForBom" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeQuinzePorcentoQuandoDesempenhoForBom" time="0.001" />
   <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeVintePorcentoQuandoDesempenhoForOtimo" time="0.0" />
   <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar" time="0.0" />
   <system-out><![CDATA[]]></system-out>
