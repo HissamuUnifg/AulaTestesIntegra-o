@@ -37,4 +37,12 @@ public class ReajusteServiceTst {
 
         assertEquals(2400.00, fulano.getSalario(), 0.001);
     } 
+    
+    @Test
+    public void reajustePorTempoDeServiçoIgualA5Anos() {
+        this.fulano = new Funcionario("Fulano", LocalDate.of(2016, 8, 19), 2000.00);
+        
+        service.concederReajuste(fulano);
+        assertEquals(2100.00, fulano.getSalario(), 0.001);
+    }
 }
