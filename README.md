@@ -26,3 +26,4 @@ Roteiro de Aula Testes de Integração automatizados;
   - BancoService: emular um erro no Serviço da API;
 
  - Passar para os alunos terminarem a implementação do método resetarPagamento usando TDD e Mockito para resetar a flag pago no banco de dados a cada novo mês. 
+ - Criar uma classe SMSService que envia um SMS para o funcionário quando o pagamento for realizado. PS> será necessária alguma alteração nas classes Funcionario e FuncionárioDAO?
