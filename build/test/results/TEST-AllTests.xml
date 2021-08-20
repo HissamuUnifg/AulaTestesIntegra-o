@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="AllTests" skipped="0" tests="13" time="0.103" timestamp="2021-08-20T18:33:43">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="javac.test.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
+    <property name="javac.test.sourcepath" value="/home/hissa/NetBeansProjects/AulaTDD/build/empty" />
+    <property name="javac.includes" value="AllTests.java" />
+    <property name="ant.core.lib" value="/usr/share/netbeans/10.0/java/ant/lib/ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="user.dir" value="/home/hissa/NetBeansProjects/AulaTDD" />
+    <property name="java.vm.version" value="25.292-b10" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="jlink.additionalmodules" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="netbeans.running.environment" value="gnome" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="jdk.home" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.hamcrest.classpath" value="/usr/share/netbeans/10.0/platform/modules/ext/hamcrest-core-1.3.jar" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Linux" />
+    <property name="test.class" value="AllTests" />
+    <property name="jdk.gtk.version" value="2.2" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="hissa" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTDD/build/test/results/TEST-AllTests.xml crashfile=/home/hissa/NetBeansProjects/AulaTDD/build/junitvmwatcher14014744494138276902.properties propsfile=/home/hissa/NetBeansProjects/AulaTDD/build/junit14157443191645498764.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="manifest.encoding" value="UTF-8" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="java.failonerror" value="true" />
+    <property name="run.modulepath" value="" />
+    <property name="jdk.debug" value="release" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="US" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="platform.home" value="/usr/lib/jvm/java-8-openjdk-amd64" />
+    <property name="javac.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar" />
+    <property name="ant.file.AulaTDD" value="/home/hissa/NetBeansProjects/AulaTDD/build.xml" />
+    <property name="platform.bootcp" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar" />
+    <property name="debug-transport" value="dt_socket" />
+    <property name="netbeans.home" value="/usr/share/netbeans/10.0/platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="javac.modulepath" value="" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
+    <property name="user.language.format" value="pt" />
+    <property name="libs.junit_5.src" value="" />
+    <property name="test.includes" value="AllTests.java" />
+    <property name="netbeans.dynamic.classpath" value="/usr/share/netbeans/10.0/platform/core/org-openide-filesystems-compat8.jar:/usr/share/netbeans/10.0/platform/core/core-base.jar:/usr/share/netbeans/10.0/platform/core/org-openide-filesystems.jar:/usr/share/netbeans/10.0/platform/core/core.jar:/usr/share/netbeans/10.0/platform/core/org-netbeans-libs-asm.jar:/usr/share/netbeans/10.0/platform/core/asm-all-5.0.1.jar:/usr/share/netbeans/10.0/nb/core/org-netbeans-upgrader.jar:/usr/share/netbeans/10.0/nb/core/locale/core_nb.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="plugin.manager.check.updates" value="false" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE 10.0 (Build 20190203-debian-10.0)" />
+    <property name="application.title" value="AulaTDD" />
+    <property name="do.archive" value="true" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="java.vendor" value="Private Build" />
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="/" />
+    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTDD/null470318847" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="javac.test.processorpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
+    <property name="netbeans.buildnumber" value="20190203-debian-10.0" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="javac.includes.binary" value="/home/hissa/NetBeansProjects/AulaTDD/build/test/classes/AllTests.class" />
+    <property name="ant.home" value="/usr/share/netbeans/10.0/java/ant" />
+    <property name="libs.junit_4.src" value="" />
+    <property name="libs.testng.classpath" value="/usr/share/netbeans/10.0/platform/modules/ext/testng-6.8.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="javadoc.author" value="false" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="/home/hissa/NetBeansProjects/AulaTDD" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="path.separator" value=":" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="platform.javac" value="/usr/lib/jvm/java-8-openjdk-amd64/bin/javac" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="dist.jlink.output" value="dist/jlink/AulaTDD" />
+    <property name="compile.on.save" value="false" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="en" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="application.vendor" value="hissa" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="manifest.available" value="true" />
+    <property name="run.test.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|hissa-G3-3590" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="52.0" />
+    <property name="libs.eclipselink.javadoc" value="" />
+    <property name="platforms.JDK_1.8.compiler" value="modern" />
+    <property name="user.properties.file" value="/home/hissa/.netbeans/10.0/build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="/usr/share/netbeans/10.0/java/ant/extra/org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="empty.dir" value="/home/hissa/NetBeansProjects/AulaTDD/build/empty" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="" />
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
+    <property name="ant.file.AulaTDD-impl" value="/home/hissa/NetBeansProjects/AulaTDD/nbproject/build-impl.xml" />
+    <property name="debug.test.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|hissa-G3-3590" />
+    <property name="libs.junit_4.javadoc" value="" />
+    <property name="platforms.JDK_1.8.bootclasspath" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar" />
+    <property name="javac.test.modulepath" value="" />
+    <property name="run.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes" />
+    <property name="jna.boot.library.name" value="jnidispatch" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="javac.processorpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="libs.junit_5.classpath" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="/home/hissa/NetBeansProjects/AulaTDD/build.xml" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="netbeans.user" value="/home/hissa/.netbeans/10.0" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="jna.loaded" value="true" />
+    <property name="junit.available" value="true" />
+    <property name="do.jlink" value="false" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
+    <property name="have.sources" value="true" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="debug.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes" />
+    <property name="javac.external.vm" value="true" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="ap.processors.internal" value="" />
+    <property name="dist.jlink.dir" value="dist/jlink" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.jar" value="dist/AulaTDD.jar" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="debug.test.modulepath" value="" />
+    <property name="ant.project.name" value="AulaTDD" />
+    <property name="netbeans.hash.code" value="unique=NBUBU05f23dfd4-e487-4f13-b41f-0230d951a4f7_7a55d9c6-07f3-455c-876c-597718327bed" />
+    <property name="netbeans.default_userdir_root" value="/home/hissa/.netbeans" />
+    <property name="platform.javadoc" value="/usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc" />
+    <property name="platform.javadoc.tmp" value="${platforms.JDK_1.8.javadoc}" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="platform.compiler" value="${platforms.JDK_1.8.compile}" />
+    <property name="javadoc.html5" value="false" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.home" value="/home/hissa" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="sun.zip.disableMemoryMapping" value="true" />
+    <property name="platform.javac.tmp" value="${platforms.JDK_1.8.javac}" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="jlink.strip" value="false" />
+    <property name="do.archive+main.class.available" value="true" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="" />
+    <property name="java.version" value="1.8.0_292" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="javac.processormodulepath" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="platform.java" value="/usr/lib/jvm/java-8-openjdk-amd64/bin/java" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="ant.file.type.AulaTDD-impl" value="file" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="jnidispatch.path" value="/usr/lib/x86_64-linux-gnu/jni/libjnidispatch.system.so" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="work.dir" value="/home/hissa/NetBeansProjects/AulaTDD" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.8" />
+    <property name="java.version.date" value="2021-04-20" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="user.country.format" value="BR" />
+    <property name="file.reference.hamcrest-core-1.3.jar" value="/home/hissa/Downloads/hamcrest-core-1.3.jar" />
+    <property name="platform.java.tmp" value="${platforms.JDK_1.8.java}" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+    <property name="javac.target" value="1.8" />
+    <property name="built-jar.properties" value="/home/hissa/NetBeansProjects/AulaTDD/build/built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="javac.test.compilerargs" value="" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="dist.dir" value="dist" />
+    <property name="file.reference.junit-4.13.2.jar" value="/home/hissa/Downloads/junit-4.13.2.jar" />
+    <property name="jlink.launcher" value="true" />
+    <property name="testng.debug.mode" value="" />
+    <property name="jlink.additionalparam" value="" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="default.javac.source" value="11" />
+    <property name="debug-transport-by-os" value="dt_socket" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="run.test.jvmargs" value="" />
+    <property name="java.runtime.version" value="1.8.0_292-8u292-b10-0ubuntu1~18.04-b10" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib:/usr/lib/i386-linux-gnu:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu/sse2" />
+    <property name="default.javac.target" value="11" />
+    <property name="libs.junit_4.classpath" value="/usr/share/netbeans/10.0/platform/modules/ext/junit-4.12.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="do.jar" value="true" />
+    <property name="netbeans.dirs" value="/usr/share/netbeans/10.0/nb:/usr/share/netbeans/10.0/ergonomics:/usr/share/netbeans/10.0/ide:/usr/share/netbeans/10.0/extide:/usr/share/netbeans/10.0/java:/usr/share/netbeans/10.0/apisupport:/usr/share/netbeans/10.0/webcommon:/usr/share/netbeans/10.0/websvccommon:/usr/share/netbeans/10.0/enterprise:/usr/share/netbeans/10.0/mobility:/usr/share/netbeans/10.0/profiler:/usr/share/netbeans/10.0/python:/usr/share/netbeans/10.0/php:/usr/share/netbeans/10.0/identity:/usr/share/netbeans/10.0/harness:/usr/share/netbeans/10.0/cnd:/usr/share/netbeans/10.0/cndext:/usr/share/netbeans/10.0/dlight:/usr/share/netbeans/10.0/groovy:/usr/share/netbeans/10.0/extra:/usr/share/netbeans/10.0/javacard:/usr/share/netbeans/10.0/javafx:" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="file.reference.sqlite-jdbc-3.36.0.1.jar" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar" />
+    <property name="endorsed.classpath" value="" />
+    <property name="libs.absolutelayout.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="java.class.path" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:/home/hissa/NetBeansProjects/AulaTDD/build/classes:/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar:/home/hissa/NetBeansProjects/AulaTDD/build/test/classes:/usr/share/netbeans/10.0/java/ant/lib/junit.jar:/usr/share/netbeans/10.0/java/ant/lib/ant-launcher.jar:/usr/share/netbeans/10.0/java/ant/lib/ant.jar:/usr/share/netbeans/10.0/java/ant/lib/ant-junit.jar:/usr/share/netbeans/10.0/java/ant/lib/ant-junit4.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="do.mkdist" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/eclipselink/javax.persistence-2.1.0.jar" />
+    <property name="libs.junit_5.javadoc" value="" />
+    <property name="os.version" value="5.4.0-81-generic" />
+    <property name="application.args" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
+    <property name="jlink.launcher.name" value="AulaTDD" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="run.test.modulepath" value="" />
+    <property name="nb.internal.action.name" value="test.single" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="/usr/share/netbeans/10.0/ide/modules/ext/jaxb/api/jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.core-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.asm-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.antlr-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql-2.5.2.jar:/usr/share/netbeans/10.0/java/modules/ext/eclipselink/javax.persistence-2.1.0.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="ant.file.type.AulaTDD" value="file" />
+    <property name="java.vm.vendor" value="Private Build" />
+    <property name="libs.CopyLibs.classpath" value="/usr/share/netbeans/10.0/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.junit_5.maven-pom" value="" />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="dist.archive.excludes" value="" />
+    <property name="libs.testng.javadoc" value="" />
+    <property name="platforms.JDK_1.8.home" value="/usr/lib/jvm/java-8-openjdk-amd64" />
+    <property name="libs.PostgreSQLDriver.classpath" value="" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="Main" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="debug.modulepath" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on March 28 2019" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="JDK_1.8" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+  </properties>
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSer10PorCentoDoSalario" time="0.009" />
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" time="0.0" />
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeQuinzePorcentoQuandoDesempenhoForBom" time="0.001" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoAcimaDe5Anos" time="0.001" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeVintePorcentoQuandoDesempenhoForOtimo" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoAbaixoDe5Anos" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntre5E10Anos" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoIgualA5Anos" time="0.001" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntreAcima20Anos" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntre10E15Anos" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntre15E20Anos" time="0.0" />
+  <system-out><![CDATA[6 years,4 years,10 years,5 years,21 years,10 years,15 years,]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

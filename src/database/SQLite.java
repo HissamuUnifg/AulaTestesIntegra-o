@@ -35,7 +35,7 @@ public final class SQLite {
             
             this.stm.execute("CREATE TABLE IF NOT EXISTS funcionarios("
                     + "id INTEGER PRIMARY KEY NOT NULL, nome VARCHAR, "
-                    + "salario REAL"
+                    + "salario REAL, conta VARCHAR, pago INTEGER"
                     + ")");
         } catch (SQLException ex) {
             Logger.getLogger(SQLite.class.getName()).log(Level.SEVERE, null, ex);
