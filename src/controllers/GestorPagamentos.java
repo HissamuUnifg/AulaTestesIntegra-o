@@ -21,9 +21,11 @@ public class GestorPagamentos {
         
         for(Funcionario funcionario : funcionarios){
             if(banco.pagarFuncionario(funcionario.getConta(), funcionario.getSalario())){                
+                System.err.println("true");
                 funcionario.setPago(true);
                 pagamentos++;
             }else{
+                System.err.println("false");
                 funcionario.setPago(false);
             }
             
