@@ -1,6 +1,12 @@
 # AulaTestesIntegração
 Repositório com código exemplo para aula de Testes Integração
 
+# Dependências
+mockito-core-2.17.0
+byte-buddy 1.9.0
+byte-buddy-agent 1.9.0
+objenesis 2.6
+
 Roteiro de Aula Testes de Integração automatizados;
 
  - clonar o repositório do github;
