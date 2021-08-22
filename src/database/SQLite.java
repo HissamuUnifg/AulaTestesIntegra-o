@@ -10,7 +10,7 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public final class SQLite {
+public class SQLite {
     private Connection conn;
     private Statement stm;  
     

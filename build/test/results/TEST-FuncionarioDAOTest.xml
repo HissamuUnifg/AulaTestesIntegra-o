@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="BancoServiceTest" skipped="0" tests="2" time="0.376" timestamp="2021-08-22T14:24:53">
+<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="FuncionarioDAOTest" skipped="0" tests="6" time="0.265" timestamp="2021-08-22T14:25:25">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="javac.test.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar:/home/hissa/Downloads/mockito-core-2.17.0.jar:/home/hissa/Downloads/objenesis-2.6.jar:/home/hissa/Downloads/byte-buddy-1.9.0.jar:/home/hissa/Downloads/byte-buddy-agent-1.9.0.jar:deps/byte-buddy-1.9.0.jar:deps/byte-buddy-agent-1.9.0.jar:deps/hamcrest-core-1.3.jar:deps/junit-4.13.2.jar:deps/mockito-core-2.17.0.jar:deps/objenesis-2.6.jar" />
     <property name="javac.test.sourcepath" value="/home/hissa/NetBeansProjects/AulaTDD/build/empty" />
-    <property name="javac.includes" value="BancoServiceTest.java" />
+    <property name="javac.includes" value="FuncionarioDAOTest.java" />
     <property name="ant.core.lib" value="/usr/share/netbeans/10.0/java/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="user.dir" value="/home/hissa/NetBeansProjects/AulaTDD" />
@@ -28,7 +28,7 @@
     <property name="libs.hamcrest.classpath" value="/usr/share/netbeans/10.0/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Linux" />
-    <property name="test.class" value="BancoServiceTest" />
+    <property name="test.class" value="FuncionarioDAOTest" />
     <property name="jdk.gtk.version" value="2.2" />
     <property name="ap.proc.none.internal" value="" />
     <property name="libs.JWSAntTasks.maven-pom" value="" />
@@ -39,7 +39,7 @@
     <property name="libs.eclipselink.src" value="" />
     <property name="user.name" value="hissa" />
     <property name="copylibs.rebase" value="true" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner BancoServiceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTDD/build/test/results/TEST-BancoServiceTest.xml crashfile=/home/hissa/NetBeansProjects/AulaTDD/build/junitvmwatcher5589249077713480899.properties propsfile=/home/hissa/NetBeansProjects/AulaTDD/build/junit10912912364009019589.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner FuncionarioDAOTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTDD/build/test/results/TEST-FuncionarioDAOTest.xml crashfile=/home/hissa/NetBeansProjects/AulaTDD/build/junitvmwatcher3694956649368185494.properties propsfile=/home/hissa/NetBeansProjects/AulaTDD/build/junit3100573351186170266.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="build.sysclasspath" value="ignore" />
     <property name="manifest.encoding" value="UTF-8" />
@@ -62,7 +62,7 @@
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
     <property name="user.language.format" value="pt" />
     <property name="libs.junit_5.src" value="" />
-    <property name="test.includes" value="BancoServiceTest.java" />
+    <property name="test.includes" value="FuncionarioDAOTest.java" />
     <property name="netbeans.dynamic.classpath" value="/usr/share/netbeans/10.0/platform/core/org-openide-filesystems-compat8.jar:/usr/share/netbeans/10.0/platform/core/core-base.jar:/usr/share/netbeans/10.0/platform/core/org-openide-filesystems.jar:/usr/share/netbeans/10.0/platform/core/core.jar:/usr/share/netbeans/10.0/platform/core/org-netbeans-libs-asm.jar:/usr/share/netbeans/10.0/platform/core/asm-all-5.0.1.jar:/usr/share/netbeans/10.0/nb/core/org-netbeans-upgrader.jar:/usr/share/netbeans/10.0/nb/core/locale/core_nb.jar" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="plugin.manager.check.updates" value="false" />
@@ -77,7 +77,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTDD/null1529904548" />
+    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTDD/null2063413701" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar:/home/hissa/Downloads/mockito-core-2.17.0.jar:/home/hissa/Downloads/objenesis-2.6.jar:/home/hissa/Downloads/byte-buddy-1.9.0.jar:/home/hissa/Downloads/byte-buddy-agent-1.9.0.jar:deps/byte-buddy-1.9.0.jar:deps/byte-buddy-agent-1.9.0.jar:deps/hamcrest-core-1.3.jar:deps/junit-4.13.2.jar:deps/mockito-core-2.17.0.jar:deps/objenesis-2.6.jar" />
@@ -86,7 +86,7 @@
     <property name="build.generated.sources.dir" value="build/generated-sources" />
     <property name="libs.eclipselinkmodelgen.classpath" value="/usr/share/netbeans/10.0/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
-    <property name="javac.includes.binary" value="/home/hissa/NetBeansProjects/AulaTDD/build/test/classes/BancoServiceTest.class" />
+    <property name="javac.includes.binary" value="/home/hissa/NetBeansProjects/AulaTDD/build/test/classes/FuncionarioDAOTest.class" />
     <property name="ant.home" value="/usr/share/netbeans/10.0/java/ant" />
     <property name="libs.junit_4.src" value="" />
     <property name="libs.testng.classpath" value="/usr/share/netbeans/10.0/platform/modules/ext/testng-6.8.1-dist.jar" />
@@ -321,28 +321,45 @@
     <property name="platform.active" value="JDK_1.8" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="BancoServiceTest" name="verificaServicoDoBancoRetornaFalso" time="0.315" />
-  <testcase classname="BancoServiceTest" name="verificaServicoDoBancoRetornaVerdadeiro" time="0.03" />
-  <system-out><![CDATA[Connection to SQLite has been established.
-database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Wilson',1500.0,12345,0)
-database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Hissamu',1500.0,67890,0)
-database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Shirado',1500.0,98765,0)
-database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Hissamu', salario = 1500.0, pago = 0 WHERE id = 2
-database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Shirado', salario = 1500.0, pago = 0 WHERE id = 3
-database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Wilson', salario = 1500.0, pago = 0 WHERE id = 1
-Connection to SQLite has been established.
-database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Wilson',1500.0,12345,0)
-database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Hissamu',1500.0,67890,0)
-database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Shirado',1500.0,98765,0)
-database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Hissamu', salario = 1500.0, pago = 1 WHERE id = 2
-database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Shirado', salario = 1500.0, pago = 1 WHERE id = 3
-database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Wilson', salario = 1500.0, pago = 1 WHERE id = 1
+  <testcase classname="FuncionarioDAOTest" name="deveChamarOMetodoExecuteQueryELancarExcecao" time="0.23" />
+  <testcase classname="FuncionarioDAOTest" name="deveChamarOMetodoExecuteQuery" time="0.006" />
+  <testcase classname="FuncionarioDAOTest" name="deveChamarOMetodoUpdateELancarExcecao" time="0.0" />
+  <testcase classname="FuncionarioDAOTest" name="deveChamarOMetodoUpdate" time="0.0" />
+  <testcase classname="FuncionarioDAOTest" name="deveChamarOMetodoFindAllComExcecao" time="0.0" />
+  <testcase classname="FuncionarioDAOTest" name="deveChamarOMetodoFindAll" time="0.0" />
+  <system-out><![CDATA[database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('any_name',1500.0,any_conta,1)
+database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('any_name',1500.0,any_conta,1)
 ]]></system-out>
-  <system-err><![CDATA[false
-false
-false
-true
-true
-true
+  <system-err><![CDATA[ago 22, 2021 11:25:25 AM database.dao.FuncionarioDAO insert
+SEVERE: null
+java.sql.SQLException
+	at database.dao.FuncionarioDAO.insert(FuncionarioDAO.java:28)
+	at FuncionarioDAOTest.deveChamarOMetodoExecuteQueryELancarExcecao(FuncionarioDAOTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
+
 ]]></system-err>
 </testsuite>

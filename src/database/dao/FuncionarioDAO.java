@@ -5,7 +5,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import models.Funcionario;
@@ -13,23 +12,25 @@ import models.Funcionario;
 public class FuncionarioDAO {
     SQLite db;
 
-    public FuncionarioDAO() {
-        this.db = new SQLite(true);
+    public FuncionarioDAO(SQLite db) {
+        this.db = db;
     }
     
-    public void insert(Funcionario funcionario){
+    public int insert(Funcionario funcionario){
         String query = "INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('"
                 + funcionario.getNome() + "',"
                 + funcionario.getSalario() + ","
                 + funcionario.getConta() + ","
                 + (funcionario.isPago() ? 1 : 0) +
                 ")";
-        System.out.println("database.dao.FuncionarioDAO.insert() "+query);
+        System.out.println("database.dao.FuncionarioDAO.insert() "+ query);
         try {
             db.executeQuery(query);
         } catch (SQLException ex) {
             Logger.getLogger(FuncionarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            return 1;
         }
+        return 0;
     }
     
     public void update(Funcionario funcionario){

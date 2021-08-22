@@ -1,4 +1,5 @@
 import controllers.GestorPagamentos;
+import database.SQLite;
 import database.dao.FuncionarioDAO;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -14,12 +15,15 @@ import services.BancoService;
 
 public class BancoServiceTest {
     
+    private SQLite db;
+    
     @Mock
-    private BancoService sut;
+    private BancoService sut;  
     
     @Before
     public void init(){
         MockitoAnnotations.initMocks(this);
+        this.db = new SQLite(true);
     }
     
     @Test
@@ -28,7 +32,7 @@ public class BancoServiceTest {
         Funcionario func2 = new Funcionario("67890","Hissamu", LocalDate.now(), 1500, false);
         Funcionario func3 = new Funcionario("98765","Shirado", LocalDate.now(), 1500, false);
                 
-        FuncionarioDAO dao = new FuncionarioDAO();                
+        FuncionarioDAO dao = new FuncionarioDAO(db);                
         dao.insert(func);
         dao.insert(func2);
         dao.insert(func3);
@@ -56,7 +60,7 @@ public class BancoServiceTest {
         Funcionario func2 = new Funcionario("67890","Hissamu", LocalDate.now(), 1500, false);
         Funcionario func3 = new Funcionario("98765","Shirado", LocalDate.now(), 1500, false);
                 
-        FuncionarioDAO dao = new FuncionarioDAO();                
+        FuncionarioDAO dao = new FuncionarioDAO(db);                
         dao.insert(func);
         dao.insert(func2);
         dao.insert(func3);
@@ -89,7 +93,7 @@ public class BancoServiceTest {
         dao.insert(func3);
         
         GestorPagamentos gp = new GestorPagamentos(dao, new BancoService());
-        gp.pagarFuncionarios();
+        gp.pagarFuncionarios(db);
         
         ArrayList<Funcionario> funcionarios = dao.findAll();               
         for(Funcionario funcionario : funcionarios){            
