@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="hissa-G3-3590" name="AllTests" skipped="0" tests="13" time="0.103" timestamp="2021-08-20T18:33:43">
+<testsuite errors="0" failures="1" hostname="hissa-G3-3590" name="AllTests" skipped="0" tests="14" time="0.191" timestamp="2021-08-22T10:31:50">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="javac.test.classpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
@@ -38,7 +38,7 @@
     <property name="libs.eclipselink.src" value="" />
     <property name="user.name" value="hissa" />
     <property name="copylibs.rebase" value="true" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTDD/build/test/results/TEST-AllTests.xml crashfile=/home/hissa/NetBeansProjects/AulaTDD/build/junitvmwatcher14014744494138276902.properties propsfile=/home/hissa/NetBeansProjects/AulaTDD/build/junit14157443191645498764.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/hissa/NetBeansProjects/AulaTDD/build/test/results/TEST-AllTests.xml crashfile=/home/hissa/NetBeansProjects/AulaTDD/build/junitvmwatcher1775798980468378117.properties propsfile=/home/hissa/NetBeansProjects/AulaTDD/build/junit17353583903078977614.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="build.sysclasspath" value="ignore" />
     <property name="manifest.encoding" value="UTF-8" />
@@ -75,7 +75,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTDD/null470318847" />
+    <property name="javac.includesfile.binary" value="/home/hissa/NetBeansProjects/AulaTDD/null148639285" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="/home/hissa/Downloads/sqlite-jdbc-3.36.0.1.jar:build/classes::/home/hissa/Downloads/junit-4.13.2.jar:/home/hissa/Downloads/hamcrest-core-1.3.jar" />
@@ -311,19 +311,34 @@
     <property name="platform.active" value="JDK_1.8" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
   </properties>
-  <testcase classname="BonusServiceTest" name="bonusDeveriaSer10PorCentoDoSalario" time="0.009" />
+  <testcase classname="BonusServiceTest" name="bonusDeveriaSer10PorCentoDoSalario" time="0.011" />
   <testcase classname="BonusServiceTest" name="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" time="0.0" />
   <testcase classname="BonusServiceTest" name="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000" time="0.0" />
   <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeQuinzePorcentoQuandoDesempenhoForBom" time="0.001" />
-  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoAcimaDe5Anos" time="0.001" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoAcimaDe5Anos" time="0.002" />
   <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeVintePorcentoQuandoDesempenhoForOtimo" time="0.0" />
-  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar" time="0.0" />
+  <testcase classname="ReajusteServiceTst" name="reajusteDeveriaSerDeTresPorcentoQuandoDesempenhoForADesejar" time="0.001" />
   <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoAbaixoDe5Anos" time="0.0" />
   <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntre5E10Anos" time="0.0" />
-  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoIgualA5Anos" time="0.001" />
+  <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoIgualA5Anos" time="0.0" />
   <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntreAcima20Anos" time="0.0" />
   <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntre10E15Anos" time="0.0" />
   <testcase classname="ReajusteServiceTst" name="reajustePorTempoDeServiçoEntre15E20Anos" time="0.0" />
-  <system-out><![CDATA[6 years,4 years,10 years,5 years,21 years,10 years,15 years,]]></system-out>
+  <testcase classname="BancoServiceTest" name="verificaServicoDoBancoRetornaVerdadeiro" time="0.138">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at BancoServiceTest.verificaServicoDoBancoRetornaVerdadeiro(BancoServiceTest.java:36)
+</failure>
+  </testcase>
+  <system-out><![CDATA[6 years,4 years,10 years,5 years,21 years,10 years,15 years,Connection to SQLite has been established.
+database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Wilson',1500.0,12345,0)
+database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Hissa',1500.0,67890,0)
+database.dao.FuncionarioDAO.insert() INSERT INTO funcionarios (nome, salario, conta, pago) VALUES ('Shirado',1500.0,98765,0)
+Pagamento do funcionario 67890 efetuado. Valor: 1500.0
+database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Hissa', salario = 1500.0, pago = 0 WHERE id = 2
+Pagamento do funcionario 98765 efetuado. Valor: 1500.0
+database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Shirado', salario = 1500.0, pago = 0 WHERE id = 3
+Pagamento do funcionario 12345 efetuado. Valor: 1500.0
+database.dao.FuncionarioDAO.insert() UPDATE funcionarios SET nome = 'Wilson', salario = 1500.0, pago = 0 WHERE id = 1
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
